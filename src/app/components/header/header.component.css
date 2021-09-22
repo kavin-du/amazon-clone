@@ -12,6 +12,7 @@
 
 .header_menu {
     display: flex;
+    width: 100%;
 }
 
 .header_menu > div {
