@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "x box one x 1TB",
+        "desc": "Microsoft xbox one x 1tb Console With Wireless controller",
+        "price": 450.00,
+        "image": "https://m.media-amazon.com/images/I/61CnOKdmBeL._SX522_.jpg",
+        "ratings": 2
+    },
+    {
+        "id": 2,
+        "title": "x box one x 1TB",
+        "desc": "Microsoft xbox one x 1tb Console With Wireless controller",
+        "price": 250.00,
+        "image": "https://m.media-amazon.com/images/I/61CnOKdmBeL._SX522_.jpg",
+        "ratings": 1
+    },
+    {
+        "id": 3,
+        "title": "x box one x 1TB",
+        "desc": "Microsoft xbox one x 1tb Console With Wireless controller",
+        "price": 350.00,
+        "image": "https://m.media-amazon.com/images/I/61CnOKdmBeL._SX522_.jpg",
+        "ratings": 4
+    },
+    {
+        "id": 4,
+        "title": "x box one x 1TB",
+        "desc": "Microsoft xbox one x 1tb Console With Wireless controller",
+        "price": 150.00,
+        "image": "https://m.media-amazon.com/images/I/61CnOKdmBeL._SX522_.jpg",
+        "ratings": 4
+    },
+    {
+        "id": 5,
+        "title": "x box one x 1TB",
+        "desc": "Microsoft xbox one x 1tb Console With Wireless controller",
+        "price": 550.00,
+        "image": "https://m.media-amazon.com/images/I/61CnOKdmBeL._SX522_.jpg",
+        "ratings": 3
+    },
+    {
+        "id": 6,
+        "title": "x box one x 1TB",
+        "desc": "Microsoft xbox one x 1tb Console With Wireless controller",
+        "price": 650.00,
+        "image": "https://m.media-amazon.com/images/I/61CnOKdmBeL._SX522_.jpg",
+        "ratings": 5
+    }
+]
