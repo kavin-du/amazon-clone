@@ -9,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class CheckoutComponent implements OnInit {
   items: any[] = [];
 
-  constructor(private shopping_cart: ShoppingCartService) { }
+  constructor(public shopping_cart: ShoppingCartService) { }
 
   ngOnInit(): void {
+    this.getShoppingCart();
   }
 
   getShoppingCart() {

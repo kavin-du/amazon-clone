@@ -29,4 +29,9 @@ export class ShoppingCartService {
     let items = this.get_shopping_cart_items();
     return items ? items.length : 0;
   }
+
+  getTotal = () => {
+    let items = this.get_shopping_cart_items();
+    return items?.reduce((acc:number, item:any) => acc + item.price, 0)
+  }
 }
