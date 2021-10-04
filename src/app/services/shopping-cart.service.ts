@@ -39,7 +39,7 @@ export class ShoppingCartService {
     let items = this.get_shopping_cart_items();
     const index = items.findIndex((item:any) => item.id == p.id);
     if(index >= 0){
-      items.slice(index, 1);
+      items.splice(index, 1);
       return localStorage.setItem('shopping_cart', JSON.stringify(items));
     }
   }

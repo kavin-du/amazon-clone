@@ -1,5 +1,6 @@
 import { ShoppingCartService } from './../../services/shopping-cart.service';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
+import { EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-checkout-products',
@@ -9,6 +10,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CheckoutProductsComponent implements OnInit {
 
   @Input() checkout_products: any[] = [];
+  @Output() deleteEvent: EventEmitter<any> = new EventEmitter();
 
   constructor(public shopping_cart_service: ShoppingCartService) { }
 
@@ -19,6 +21,7 @@ export class CheckoutProductsComponent implements OnInit {
 
   removeItem(p:any) {
     this.shopping_cart_service.removeItem(p);
+    this.deleteEvent.emit(p);
   }
 
 
