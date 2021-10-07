@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "myclone-angular": {
+      "hosting": {
+        "my-amazon-clone": [
+          "myclone-angular"
+        ]
+      }
+    }
+  }
+}
